@@ -1,0 +1,75 @@
+*{
+        box-sizing: border-box;
+}
+html {
+        margin: 0;
+        padding: 0;
+        font-size: 94%; /* Equivale a 15px%*/
+}
+body {
+        background-color: #7ac5cd;
+}
+.container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 20px;
+}
+h2 {
+        color: #333;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+}
+.form-group {
+        margin-bottom: 15px;    
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+select#estado {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+}
+
+button {
+    margin-bottom: 2rem;
+    margin: 1rem;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+        margin-top: 0.1rem;
+        padding: 5px;
+        text-align: center;
+        color: #000000;
+}
+
+
